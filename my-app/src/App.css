@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Signika:wght@500;529&family=Space+Grotesk:wght@100&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, 'Righteous',
+        cursive;
+}
+
+.jumbo {
+    font-size: 18px;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html {
+    height: 100%;
+    background-color: #333;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.bod {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    height: 100vh;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #333;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.mainInfo {
+    margin-bottom: 8em;
+}
+
+/*
+ * Header
+ */
+header {
+    color: #fa19c2e5;
+    /* font-family: 'Signika', sans-serif; */
+    /* font-family: 'Space Grotesk', sans-serif; */
+    margin-bottom: 2rem;
+    text-shadow: 0.1rem .1rem rgba(0, 0, 0, .5);
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.jumbotron {
+    height: 100vh;
+}
+
+/*
+ * Cover
+ */
+.cover {
+    padding: 0 1.5rem;
+}
+
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.butt {
+    margin: 8px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 8px;
+    color: white;
+    border: 3px solid white;
+}
+
+#submitSongForm {
+    width: 100%;
+}
