@@ -68,3 +68,5 @@ Building this project was a great learning experience for me. While spending ove
 - Allow users to not include featured artists in parenthesis when they are guessing a song
 
 As with any app, there can always be future improvements, yet I am most proud of my hard work and learning throughout the process.  
+
+*Project completed over the course of 3 days as the coding challenge for my application to Vanderbilt Change++
