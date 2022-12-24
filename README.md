@@ -3,7 +3,7 @@
 ### Email: kai.w.dubauskas@vanderbilt.edu
 
 ## Description
-Web-based game where users guess the lyrics of an artist of their choosing.
+Web-based game where users guess the lyrics of an artist of their choosing. Built in 72 hours as a part of the interview for Vanderbilt Change++
 
 ## Demonstration
 ![](demonstration.gif)
